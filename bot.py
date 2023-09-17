@@ -61,4 +61,5 @@ def handle_all_message(message):
             chat_id, "Это не команда. Попробуйте /weather для получения погоды или /image_unsplash для поиска изображения.")
 
 
+print('Бот запущен')
 bot.infinity_polling()

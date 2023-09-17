@@ -36,7 +36,7 @@ def set_emoji_status(status):
     emoji = ""
     if status == "ясно":
         emoji = "☀️"
-    elif status == "небольшая облачность":
+    elif status == "пасмурно":
         emoji = "🌤️"
     elif status == "рассеянные облака":
         emoji = "⛅"

@@ -3,7 +3,7 @@ from translator import translate_to_english
 import TOKENS
 
 
-def image(query):
+def s_image(query):
     query = translate_to_english(query)
     url = "https://api.unsplash.com/search/photos"
     params = {
